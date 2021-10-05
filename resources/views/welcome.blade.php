@@ -22,7 +22,7 @@
     </head>
     <body class="antialiased">
         @php
-        $test = DB::table('user')
+        $test = DB::table('users')
         ->get();    
         @endphp
         <p>{{$test}}</p>
